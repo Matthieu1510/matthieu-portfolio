@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-body);       /* texts */
+  --font-heading: var(--font-heading); /*  titles */
+
+  --color-ink: #0a1628;
+  --color-ink-soft: #10203a;
+  --color-paper: #f5f7fa;
+
+  --color-accent: #22d3ee;
+  --color-accent-deep: #0e7d90;
+
+  --color-body: #1a2436;
+  --color-body-muted: #485668;
+  --color-muted: #8b9ab0;
+  --color-line: #e5e9ef;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
