@@ -25,7 +25,7 @@ const About = () => {
             </div>
             <div className="relative aspect-[3/4] rounded-xl  overflow-hidden">
                 <Image
-                    src="/images/profile.png"
+                    src="/images/profile1.png"
                     alt="Matthieu"
                     fill
                     className="object-cover"
